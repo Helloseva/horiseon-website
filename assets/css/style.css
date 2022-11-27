@@ -8,7 +8,8 @@ body {
     background-color: #d9dcd6;
 }
 
-/*header div is replaced by list*/
+/*CSS selectors and properties are consolidated and organized to follow semantic structure*/
+/*Header div is replaced by list*/
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -60,6 +61,33 @@ p {
     background-position: center;
 }
 
+/* "content" replaced by "posts" and all properties under it are consolidated and organised*/
+
+.posts {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.post-item {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.post-item img {
+    max-height: 200px;
+}
+
+.post-item h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+
 .float-left {
     float: left;
     margin-right: 25px;
@@ -70,13 +98,10 @@ p {
     margin-left: 25px;
 }
 
-.content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
-}
 
-.benefits {
+/* "benefits" replaced by "aside" */
+
+aside {
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -87,107 +112,28 @@ p {
     background-color: #2589bd;
 }
 
-.benefit-lead {
+/* benefit-lead; benefit-brand; benefit-cost are removed and replaced by "benefit-item"*/
+.benefit-item {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
+/* benefit-lead h3; benefit-brand h3; benefit-cost h3 are removed and replaced by "benefit-heading h3"*/
 
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-lead h3 {
+.benefit-heading h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
+/* benefit-lead img; benefit-brand img; benefit-cost img are removed and replaced by "benefit-item img"*/
 
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-lead img {
+.benefit-item img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.search-engine-optimization {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.search-engine-optimization img {
-    max-height: 200px;
-}
-
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
+/*Heading attribute <h2> is changed to <h4> according to html file*/
 
 .footer {
     padding: 30px;
@@ -196,6 +142,6 @@ p {
     text-align: center;
 }
 
-.footer h2 {
+.footer h4 {
     font-size: 20px;
 }
