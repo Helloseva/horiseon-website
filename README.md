@@ -8,6 +8,7 @@ This Module1 Challenge Accessibility project was created for boot camp students 
 
 Project is deployed: 
 
+https://helloseva.github.io/module1-challenge-accessibility/
 
 ## Installation
 
