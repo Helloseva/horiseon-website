@@ -17,7 +17,7 @@ N/A
 
 Screeshot of the Web Page:
 
-
+![Photo of the final Webpage](assets/images/screenshot.png)
  
 
 ## Credits
