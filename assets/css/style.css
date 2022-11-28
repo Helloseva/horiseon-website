@@ -1,3 +1,5 @@
+/*CSS selectors and properties are consolidated and organized to follow semantic structure*/
+
 * {
     box-sizing: border-box;
     padding: 0;
@@ -8,25 +10,24 @@ body {
     background-color: #d9dcd6;
 }
 
-/*CSS selectors and properties are consolidated and organized to follow semantic structure*/
 /*Header div is replaced by list*/
-.header {
+header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
 
-.header h1 {
+header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
-.header h1 .seo {
+header h1 .seo {
     color: #d9dcd6;
 }
 
-.list {
+header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -34,16 +35,16 @@ body {
     font-size: 20px;
 }
 
-.list ul {
+header nav ul {
     list-style-type: none;
 }
 
-.list ul li {
+header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
-a {
+header nav a {
     color: #ffffff;
     text-decoration: none;
 }
@@ -62,7 +63,6 @@ p {
 }
 
 /* "content" replaced by "posts" and all properties under it are consolidated and organised*/
-
 .posts {
     width: 75%;
     display: inline-block;
@@ -87,7 +87,6 @@ p {
     font-size: 36px;
 }
 
-
 .float-left {
     float: left;
     margin-right: 25px;
@@ -98,9 +97,7 @@ p {
     margin-left: 25px;
 }
 
-
 /* "benefits" replaced by "aside" */
-
 aside {
     margin-right: 20px;
     padding: 20px;
@@ -113,20 +110,19 @@ aside {
 }
 
 /* benefit-lead; benefit-brand; benefit-cost are removed and replaced by "benefit-item"*/
+
 .benefit-item {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
 /* benefit-lead h3; benefit-brand h3; benefit-cost h3 are removed and replaced by "benefit-heading h3"*/
-
 .benefit-heading h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
 /* benefit-lead img; benefit-brand img; benefit-cost img are removed and replaced by "benefit-item img"*/
-
 .benefit-item img {
     display: block;
     margin: 10px auto;
@@ -134,7 +130,6 @@ aside {
 }
 
 /*Heading attribute <h2> is changed to <h4> according to html file*/
-
 .footer {
     padding: 30px;
     clear: both;
