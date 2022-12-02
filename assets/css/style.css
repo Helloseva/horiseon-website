@@ -1,5 +1,4 @@
-/*CSS selectors and properties are consolidated and organized to follow semantic structure*/
-
+/*CSS selectors and properties are consolidated and organized to follow semantic structure */
 * {
     box-sizing: border-box;
     padding: 0;
@@ -10,7 +9,7 @@ body {
     background-color: #d9dcd6;
 }
 
-/*Navigation bar added to header*/
+/*applies to header*/
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -53,6 +52,7 @@ p {
     font-size: 16px;
 }
 
+/* applies to class hero */
 .hero {
     height: 800px;
     width: 100%;
@@ -62,7 +62,7 @@ p {
     background-position: center;
 }
 
-/* "content" replaced by "posts" and all properties under it are consolidated and organised*/
+/* applies to post class */
 .posts {
     width: 75%;
     display: inline-block;
@@ -97,7 +97,7 @@ p {
     margin-left: 25px;
 }
 
-/* "benefits" replaced by "aside" */
+/* applies to benefit class  */
 .benefits {
     position:absolute;
     top: 125%; right: -10px;
@@ -111,15 +111,14 @@ p {
     background-color: #2589bd;
 }
 
-/* benefit-lead; benefit-brand; benefit-cost are removed and replaced by "benefit-item"*/
-
+/* applies margin and color styling to the benefit-item class */
 .benefit-item {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-/* benefit-lead h3; benefit-brand h3; benefit-cost h3 are removed and replaced by "benefit-heading h3"*/
-.benefit-heading h3 {
+/* applies margin and text alignment styling to the benefit-item class heading */
+.benefit-item h3 {
     margin-bottom: 10px;
     text-align: center;
 }
@@ -131,7 +130,7 @@ p {
     max-width: 150px;
 }
 
-/*Heading attribute <h2> is changed to <h4> according to html file*/
+/*footer element */
 .footer {
     padding: 30px;
     clear: both;
