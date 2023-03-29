@@ -1,6 +1,6 @@
 # module1-challenge-accessibility
 
-This Challenge assignment is to modify and refactor starter code which involves accessibility.
+A landing page for a search engine optimisation website which involves accessibility.
 
 ## Description 
 
